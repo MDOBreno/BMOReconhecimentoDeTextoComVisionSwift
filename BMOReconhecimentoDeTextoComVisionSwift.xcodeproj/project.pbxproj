@@ -13,26 +13,10 @@
 		33C706D524B61474004E4995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C706D324B61474004E4995 /* Main.storyboard */; };
 		33C706D724B61478004E4995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C706D624B61478004E4995 /* Assets.xcassets */; };
 		33C706DA24B61478004E4995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C706D824B61478004E4995 /* LaunchScreen.storyboard */; };
-		33C706E524B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C706E424B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests.swift */; };
-		33C706F024B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C706EF24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests.swift */; };
+		33DA567F24B764CC00009C3C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DA567E24B764CC00009C3C /* StringUtils.swift */; };
+		33DA568124B78E3E00009C3C /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DA568024B78E3E00009C3C /* VisionViewController.swift */; };
+		33DA568324B78F0E00009C3C /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DA568224B78F0E00009C3C /* PreviewView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		33C706E124B61478004E4995 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 33C706C224B61474004E4995 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 33C706C924B61474004E4995;
-			remoteInfo = BMOReconhecimentoDeTextoComVisionSwift;
-		};
-		33C706EC24B61478004E4995 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 33C706C224B61474004E4995 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 33C706C924B61474004E4995;
-			remoteInfo = BMOReconhecimentoDeTextoComVisionSwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		33C706CA24B61474004E4995 /* BMOReconhecimentoDeTextoComVisionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMOReconhecimentoDeTextoComVisionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,30 +27,14 @@
 		33C706D624B61478004E4995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33C706D924B61478004E4995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33C706DB24B61478004E4995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C706E024B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMOReconhecimentoDeTextoComVisionSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C706E424B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMOReconhecimentoDeTextoComVisionSwiftTests.swift; sourceTree = "<group>"; };
-		33C706E624B61478004E4995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C706EB24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMOReconhecimentoDeTextoComVisionSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C706EF24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMOReconhecimentoDeTextoComVisionSwiftUITests.swift; sourceTree = "<group>"; };
-		33C706F124B61478004E4995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C706FE24B61656004E4995 /* VisionKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisionKit.framework; path = System/Library/Frameworks/VisionKit.framework; sourceTree = SDKROOT; };
+		33DA567E24B764CC00009C3C /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		33DA568024B78E3E00009C3C /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
+		33DA568224B78F0E00009C3C /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		33C706C724B61474004E4995 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33C706DD24B61478004E4995 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33C706E824B61478004E4995 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,9 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				33C706CC24B61474004E4995 /* BMOReconhecimentoDeTextoComVisionSwift */,
-				33C706E324B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests */,
-				33C706EE24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests */,
 				33C706CB24B61474004E4995 /* Products */,
+				33C706FD24B61656004E4995 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				33C706CA24B61474004E4995 /* BMOReconhecimentoDeTextoComVisionSwift.app */,
-				33C706E024B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests.xctest */,
-				33C706EB24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,26 +71,19 @@
 				33C706D624B61478004E4995 /* Assets.xcassets */,
 				33C706D824B61478004E4995 /* LaunchScreen.storyboard */,
 				33C706DB24B61478004E4995 /* Info.plist */,
+				33DA567E24B764CC00009C3C /* StringUtils.swift */,
+				33DA568024B78E3E00009C3C /* VisionViewController.swift */,
+				33DA568224B78F0E00009C3C /* PreviewView.swift */,
 			);
 			path = BMOReconhecimentoDeTextoComVisionSwift;
 			sourceTree = "<group>";
 		};
-		33C706E324B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests */ = {
+		33C706FD24B61656004E4995 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				33C706E424B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests.swift */,
-				33C706E624B61478004E4995 /* Info.plist */,
+				33C706FE24B61656004E4995 /* VisionKit.framework */,
 			);
-			path = BMOReconhecimentoDeTextoComVisionSwiftTests;
-			sourceTree = "<group>";
-		};
-		33C706EE24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				33C706EF24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests.swift */,
-				33C706F124B61478004E4995 /* Info.plist */,
-			);
-			path = BMOReconhecimentoDeTextoComVisionSwiftUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +106,6 @@
 			productReference = 33C706CA24B61474004E4995 /* BMOReconhecimentoDeTextoComVisionSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		33C706DF24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 33C706F724B61478004E4995 /* Build configuration list for PBXNativeTarget "BMOReconhecimentoDeTextoComVisionSwiftTests" */;
-			buildPhases = (
-				33C706DC24B61478004E4995 /* Sources */,
-				33C706DD24B61478004E4995 /* Frameworks */,
-				33C706DE24B61478004E4995 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				33C706E224B61478004E4995 /* PBXTargetDependency */,
-			);
-			name = BMOReconhecimentoDeTextoComVisionSwiftTests;
-			productName = BMOReconhecimentoDeTextoComVisionSwiftTests;
-			productReference = 33C706E024B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		33C706EA24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 33C706FA24B61478004E4995 /* Build configuration list for PBXNativeTarget "BMOReconhecimentoDeTextoComVisionSwiftUITests" */;
-			buildPhases = (
-				33C706E724B61478004E4995 /* Sources */,
-				33C706E824B61478004E4995 /* Frameworks */,
-				33C706E924B61478004E4995 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				33C706ED24B61478004E4995 /* PBXTargetDependency */,
-			);
-			name = BMOReconhecimentoDeTextoComVisionSwiftUITests;
-			productName = BMOReconhecimentoDeTextoComVisionSwiftUITests;
-			productReference = 33C706EB24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,14 +118,6 @@
 				TargetAttributes = {
 					33C706C924B61474004E4995 = {
 						CreatedOnToolsVersion = 11.5;
-					};
-					33C706DF24B61478004E4995 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 33C706C924B61474004E4995;
-					};
-					33C706EA24B61478004E4995 = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 33C706C924B61474004E4995;
 					};
 				};
 			};
@@ -221,8 +135,6 @@
 			projectRoot = "";
 			targets = (
 				33C706C924B61474004E4995 /* BMOReconhecimentoDeTextoComVisionSwift */,
-				33C706DF24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests */,
-				33C706EA24B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +150,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33C706DE24B61478004E4995 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33C706E924B61478004E4995 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,42 +157,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DA567F24B764CC00009C3C /* StringUtils.swift in Sources */,
 				33C706D224B61474004E4995 /* ViewController.swift in Sources */,
 				33C706CE24B61474004E4995 /* AppDelegate.swift in Sources */,
+				33DA568124B78E3E00009C3C /* VisionViewController.swift in Sources */,
 				33C706D024B61474004E4995 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33C706DC24B61478004E4995 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33C706E524B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33C706E724B61478004E4995 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33C706F024B61478004E4995 /* BMOReconhecimentoDeTextoComVisionSwiftUITests.swift in Sources */,
+				33DA568324B78F0E00009C3C /* PreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		33C706E224B61478004E4995 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 33C706C924B61474004E4995 /* BMOReconhecimentoDeTextoComVisionSwift */;
-			targetProxy = 33C706E124B61478004E4995 /* PBXContainerItemProxy */;
-		};
-		33C706ED24B61478004E4995 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 33C706C924B61474004E4995 /* BMOReconhecimentoDeTextoComVisionSwift */;
-			targetProxy = 33C706EC24B61478004E4995 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		33C706D324B61474004E4995 /* Main.storyboard */ = {
@@ -435,13 +307,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5RH7482C6;
+				DEVELOPMENT_TEAM = KWKSX6FTBH;
 				INFOPLIST_FILE = BMOReconhecimentoDeTextoComVisionSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.BMOReconhecimentoDeTextoComVisionSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.CallereReconhecimentoDeTextoComVisionSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,100 +326,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5RH7482C6;
+				DEVELOPMENT_TEAM = KWKSX6FTBH;
 				INFOPLIST_FILE = BMOReconhecimentoDeTextoComVisionSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.BMOReconhecimentoDeTextoComVisionSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.CallereReconhecimentoDeTextoComVisionSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		33C706F824B61478004E4995 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5RH7482C6;
-				INFOPLIST_FILE = BMOReconhecimentoDeTextoComVisionSwiftTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.BMOReconhecimentoDeTextoComVisionSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMOReconhecimentoDeTextoComVisionSwift.app/BMOReconhecimentoDeTextoComVisionSwift";
-			};
-			name = Debug;
-		};
-		33C706F924B61478004E4995 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5RH7482C6;
-				INFOPLIST_FILE = BMOReconhecimentoDeTextoComVisionSwiftTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.BMOReconhecimentoDeTextoComVisionSwiftTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMOReconhecimentoDeTextoComVisionSwift.app/BMOReconhecimentoDeTextoComVisionSwift";
-			};
-			name = Release;
-		};
-		33C706FB24B61478004E4995 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5RH7482C6;
-				INFOPLIST_FILE = BMOReconhecimentoDeTextoComVisionSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.BMOReconhecimentoDeTextoComVisionSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BMOReconhecimentoDeTextoComVisionSwift;
-			};
-			name = Debug;
-		};
-		33C706FC24B61478004E4995 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L5RH7482C6;
-				INFOPLIST_FILE = BMOReconhecimentoDeTextoComVisionSwiftUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ProgramasBMO.BMOReconhecimentoDeTextoComVisionSwiftUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BMOReconhecimentoDeTextoComVisionSwift;
 			};
 			name = Release;
 		};
@@ -567,24 +357,6 @@
 			buildConfigurations = (
 				33C706F524B61478004E4995 /* Debug */,
 				33C706F624B61478004E4995 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		33C706F724B61478004E4995 /* Build configuration list for PBXNativeTarget "BMOReconhecimentoDeTextoComVisionSwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				33C706F824B61478004E4995 /* Debug */,
-				33C706F924B61478004E4995 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		33C706FA24B61478004E4995 /* Build configuration list for PBXNativeTarget "BMOReconhecimentoDeTextoComVisionSwiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				33C706FB24B61478004E4995 /* Debug */,
-				33C706FC24B61478004E4995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
